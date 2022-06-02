@@ -1,0 +1,58 @@
+ /* reset style */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+    padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+.firstbackgound {
+    background-image: url("../img/1backgrounnd.jpg");
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+}
+
+.wrapper {
+min-height: 100%;
+    overflow: hidden;
+}
+
+
+.header__container {
+    display: flex;
+    min-height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 50;
+}
+
+.header__container {}
+
